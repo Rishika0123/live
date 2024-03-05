@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form>
+        <lable for="username">Username :</lable>
+        <input type="text"id="username"placeholder="your username" required> <br><br>
+        
+        <lable for="password">Password :</lable>
+        <input type="password"id="password"placeholder="your password" required> <br><br>
+
+        <lable for="email">Email :</lable>
+        <input type="email"id="email"placeholder="your email" required> <br><br>
+
+        <!--radio button--> 
+        <p>select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male"> <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female"> <br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender"id="other"> <br>
+        <br> <br> 
+
+        <!--dropdown list-->
+        <label for="state">Select your state</label>
+        <select name="" id="state">
+            <option value="MP">MP</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Pune">Pune</option>
+            <option value="Agra">Agra</option>
+        </select>
+        <br> <br>
+        <input type="submit"value="sign in">
+        <br> <br>
+        <p>comment below</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="type here"></textarea>
+    </form>
+    
+</body>
+</html>
